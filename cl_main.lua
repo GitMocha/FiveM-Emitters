@@ -1,4 +1,4 @@
--- Set true to enable emitter and false to disabe. Most of these locations are base gta-online. Some are interiors you have to teleport into, some aren't.
+-- Set true to enable emitter and false to disabe. Some are interiors you have to teleport into, some aren't.
 
 CreateThread(function()
     while true do
