@@ -1,4 +1,4 @@
--- Set true to enable emitter and false to disabe. Some are interiors you have to teleport into, some aren't.
+-- Just a collection of base emitters, that are either not on by default in FiveM, or are but we want to disable them. Set true to enable and false to disabe. Some are interiors you have to teleport into, some aren't.
 
 CreateThread(function()
     while true do
