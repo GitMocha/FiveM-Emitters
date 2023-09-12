@@ -6,8 +6,8 @@ CreateThread(function()
         if NetworkIsSessionStarted() then
             -- [VanillaUnicorn]
             SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_01_STAGE', true)                    -- vector3(116.82, -1286.87, 28.26)
-            SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_02_MAIN_ROOM', false)           
-            SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_03_BACK_ROOM', true)            
+            SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_02_MAIN_ROOM', false)
+            SetStaticEmitterEnabled('LOS_SANTOS_VANILLA_UNICORN_03_BACK_ROOM', true)
             -- [Tequilala]
             SetStaticEmitterEnabled('SE_DLC_Biker_Tequilala_Exterior_Emitter', true)                -- vector3(-555.12, 273.31, 83.0)
             -- [Casino]
@@ -53,21 +53,41 @@ CreateThread(function()
             SetStaticEmitterEnabled('MP_ARM_WRESTLING_RADIO_07', true)                              -- vector3(906.2, -171.59, 74.11)
             -- [IslandParty]
             SetStaticEmitterEnabled('se_dlc_hei4_island_beach_party_music_new_01_left', true)       -- vector3(4895.83, -4908.65, 31.74)
-            SetStaticEmitterEnabled('se_dlc_hei4_island_beach_party_music_new_02_right', true) 
-            SetStaticEmitterEnabled('se_dlc_hei4_island_beach_party_music_new_03_reverb', true) 
-            SetStaticEmitterEnabled('se_dlc_hei4_island_beach_party_music_new_04_reverb', true) 
-            -- [ParkingLots]
-            SetStaticEmitterEnabled('SE_LR_Car_Park_Radio_01', true)                                -- vector3(-801.41, -2381.21, 14.58) LOL, quite a weird one. It should probs not be left in if u use it.. 
+            SetStaticEmitterEnabled('se_dlc_hei4_island_beach_party_music_new_02_right', true)
+            SetStaticEmitterEnabled('se_dlc_hei4_island_beach_party_music_new_03_reverb', true)
+            SetStaticEmitterEnabled('se_dlc_hei4_island_beach_party_music_new_04_reverb', true)
             -- [LostTrailerPrk]
             SetStaticEmitterEnabled('TREVOR1_TRAILER_PARK_MAIN_STAGE_RADIO', true)                  -- vector3(77.33, 3703.82, 41.08)
             SetStaticEmitterEnabled('TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_01', false)
             SetStaticEmitterEnabled('TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_02', false)
             SetStaticEmitterEnabled('TREVOR1_TRAILER_PARK_MAIN_TRAILER_RADIO_03', false)
-            -- [Showroom]
+            -- [Showrooms]
             SetStaticEmitterEnabled('collision_8onfnzt', true)                                      -- vector3(-44.78, -1097.61, 26.42)
             SetStaticEmitterEnabled('dlc_mpsum2_auto_store_music', true)                            -- vector3(-788.05, -238.89, 37.73)
+            -- [Gunstores]
+            SetStaticEmitterEnabled('hash_a33ac22f_bhkjvmg_collision', true)                        -- vector3(2565.46, 292.22, 110.65)
+            SetStaticEmitterEnabled('hash_d8ec4cf7_adfnxrm_collision', true)
+            SetStaticEmitterEnabled('hash_486225ed_erxjglra_collision', true)
+            SetStaticEmitterEnabled('hash_9ceb51de_dvazqsr_collision', true)
+            SetStaticEmitterEnabled('SE_AMMUNATION_CYPRESS_FLATS_GUN_RANGE', true)
+            SetStaticEmitterEnabled('hash_29757dcb_bcvnmyk_collision', true)
+            SetStaticEmitterEnabled('hash_e4dfc99f_kboxkcf_collision', true)
+            SetStaticEmitterEnabled('hash_21937e47_irlhoqd_collision', true)
+            SetStaticEmitterEnabled('hash_d1fa9836_plhmebda_collision', true)
+            SetStaticEmitterEnabled('LOS_SANTOS_AMMUNATION_GUN_RANGE', true)
+            SetStaticEmitterEnabled('se_ammunation_east_ls', true)
+            SetStaticEmitterEnabled('se_ammunation_vinewood', true)
+            SetStaticEmitterEnabled('se_ammunation_east_ls', true)
+            SetStaticEmitterEnabled('se_ammunation_paleto', true)
+            -- [Tattooshops]
+            SetStaticEmitterEnabled('hash_458bbe13_juinuxn_collision', true)                        -- vector3(1321.0, -1656.6, 54.0)
+            SetStaticEmitterEnabled('hash_f6758124_bectuif_collision', true)
+            SetStaticEmitterEnabled('hash_1a75125e_bknhvkt_collision', true)
+            SetStaticEmitterEnabled('hash_8b642694_dtpiuqm_collision', true)
+            SetStaticEmitterEnabled('hash_5536d6ab_edfygcq_collision', true)
             -- [Misc]
-            SetStaticEmitterEnabled('collision_mvc4cy', true)                                       -- vector3(150.74, -3083.61, 5.9)
+            SetStaticEmitterEnabled('collision_mvc4cy', true)                                       -- vector3(150.74, -3083.61, 5.9)       
+            SetStaticEmitterEnabled('se_restaurants_hollywood_28', true)                            -- vector3(386.7, -322.2, 48.0)
             return
         end
     end
